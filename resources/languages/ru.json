@@ -1,0 +1,79 @@
+{
+  "header": {
+    "switchToUserPage": "Заказать обед",
+    "switchToManagerPage": "Страница менеджера"
+  },
+  "userPage": {
+    "unchosenMenu": "Заказ не сделан",
+    "unavailableMenu": "Меню ещё не доступно",
+    "makeAnOrder": "Заказать",
+    "editOrder": "Редактировать",
+    "cancel": "Сбросить"
+  },
+  "managerPage": {
+    "uploadMenu": {
+      "tabName": "Загрузка меню",
+      "currentWeek": "Текущая неделя",
+      "nextWeek": "Следующая неделя",
+      "publishMenu": "Опубликовать",
+      "selectMenu": "Выбрать файл",
+      "nomenu": "Меню на эту неделю отсутсвует",
+      "noFileSelected": "Файл не выбран",
+      "sendFile": "Отправить"
+    },
+    "todaysOrder": {
+      "tabName": "Заказы на сегодня",
+      "emptyList": "Заказов на сегодня нет"
+    },
+    "updateBalance": {
+      "tabName": "Пополнить баланс",
+      "user": "Пользователь",
+      "balance": "Баланс",
+      "searchForUser": "Искать сотрудников",
+      "usersPerPage": "Сотрудников на странице",
+      "replenish": "зачислить",
+      "enterSum": "сумма",
+      "emptySearch": "Такого пользователя нет",
+      "of": "из"
+    },
+    "makeAnOrder": {
+      "tabName": "Подтвердить заказ",
+      "emptyList": "Заказов на сегодня нет",
+      "amount": "Колличество",
+      "dishTitle": "Наименование",
+      "send":"Отправить"
+    }
+  },
+  "other": {
+    "switchLanguage": "Switch to ENG",
+    "amount": "Сумма: ",
+    "print": "Печать",
+    "submit": "Подтвердить",
+    "price": "Цена",
+    "currency": "BYN",
+    "weight": "г",
+    "extra": "Дополнительно",
+    "more": "+ ещё ",
+    "somethingWrong": "Что-то пошло не так. Перезагрузите страницу.",
+    "networkError": "Ошибка сети",
+    "uploadError": "Ошибка загрузки файла.",
+    "daysOfTheWeek": {
+      "monday": "Понедельник",
+      "tuesday": "Вторник",
+      "wednesday": "Среда",
+      "thursday": "Четверг",
+      "friday": "Пятница",
+      "saturday": "Суббота",
+      "sunday": "Воскресенье"
+    },
+    "daysOfTheWeek_short": {
+      "monday": "Пн",
+      "tuesday": "Вт",
+      "wednesday": "Ср",
+      "thursday": "Чт",
+      "friday": "Пт",
+      "saturday": "Сб",
+      "sunday": "Вс"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: 0;
+}
+.manager-home-screen{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    margin: auto;
+}
+@media (max-width: 1000px) {
+  .manager-home-screen{
+      width: 98%;
+  }
+}
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    margin: 50px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar__link{
+    text-decoration: none; 
+    background-color: white;
+    border: 1px solid #008AFF;
+    border-radius: 2px;
+    flex: 1;
+    margin: 3px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: .4s;
+}
+.left-link{
+    margin-left: 0;
+}
+.right-link{
+    margin-right: 0;
+}
+.nav-bar__link-text{
+    font: 300 18px 'Roboto', sans-serif;
+    padding: 2px;
+}
+.tab-icon{
+    display: none;
+}
+.nav-bar__link:active,.nav-bar-selected{
+    background-color: #008AFF;
+    color: white; 
+}
+.nav-bar__link:visited { text-decoration: none; } 
+.nav-bar__link:active { text-decoration: none; }
+@media (max-width: 600px) {
+    .nav-bar__link-text{
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) {
+    .nav-bar__link-text{
+      display: none;
+    }
+    .tab-icon{
+        display: block;
+    }
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 500px;
+    background-color: white;
+    margin-bottom: 100px;
+    position: relative;
+}
+.print{
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    z-index: 1;
+    background-color: #008AFF;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .4s;
+    right: 30px;
+    bottom: 30px;
+}
+@media (max-width: 600px) {
+    .print{
+    right: 20px;
+    bottom: 20px;
+    }
+}
+.print-icon{
+    font-size: 50px;
+    color: white;
+}
+
+.print:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

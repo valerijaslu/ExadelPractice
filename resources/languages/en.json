@@ -1,0 +1,79 @@
+{
+  "header": {
+    "switchToUserPage": "Switch to order",
+    "switchToManagerPage": "Switch to manager"
+  },
+  "userPage": {
+    "unchosenMenu": "No order yet",
+    "unavailableMenu": "Unavailable menu",
+    "makeAnOrder": "Make order",
+    "editOrder": "Edit order",
+    "cancel": "Reset"
+  },
+  "managerPage": {
+    "uploadMenu": {
+      "tabName": "Upload menu",
+      "currentWeek": "Current week",
+      "nextWeek": "Next week",
+      "publishMenu": "Publish menu",
+      "selectMenu": "Select file",
+      "nomenu": "There is no menu on this week",
+      "noFileSelected": "No file selected",
+      "sendFile": "Send"
+    },
+    "todaysOrder": {
+      "tabName": "Today's order",
+      "emptyList": "There aren't orders for today"
+    },
+    "updateBalance": {
+      "tabName": "Update balance",
+      "user": "User",
+      "balance": "Balance",
+      "searchForUser": "Search for user",
+      "usersPerPage": "Users per page",
+      "replenish": "update",
+      "enterSum": "sum",
+      "emptySearch": "There is no such user",
+      "of": "of"
+    },
+    "makeAnOrder": {
+      "tabName": "Submit order",
+      "emptyList": "There aren't orders for today",
+      "amount": "Amount",
+      "dishTitle": "Dish",
+      "send":"Send"
+    }
+  },
+  "other": {
+    "switchLanguage": "Switch to RUS",
+    "amount": "Total price: ",
+    "print": "Print",
+    "submit": "Submit",
+    "price": "Price",
+    "currency": "BYN",
+    "weight": "g",
+    "extra": "Extra",
+    "more": "+ more ",
+    "somethingWrong": "Something went wrong. Please, reload page.",
+    "networkError": "Network error",
+    "uploadError": "Cannot upload file. Please try again.",
+    "daysOfTheWeek": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "daysOfTheWeek_short": {
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun"
+    }
+  }
+}

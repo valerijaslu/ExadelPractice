@@ -1,0 +1,39 @@
+.order-item-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 19px;
+}
+
+.order-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 5px 20px;
+    font-size: 19px;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-item-name {
+    padding-bottom: 5px;
+    font-size: 19px;
+    font-size: 19px;
+
+}
+
+.mass, .quantity, .price, .weekday, .date {
+    font-size: 19px;
+}
+
+.mass{
+    flex:  1;
+}
+
+.quantity{
+    flex:  1;
+    text-align: center;
+}
+
+.price{
+    flex:  1;
+    text-align: right
+}

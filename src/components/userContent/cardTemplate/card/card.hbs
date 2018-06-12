@@ -1,0 +1,33 @@
+<div class="card universal-hover-effect shadow">
+    <div class="header"></div>
+    <div class="card-inside">
+        <div class="card-content {{#if emptyOrder}} jc {{/if}} {{#if emptyMenu}} center-text {{/if}}">
+            {{#if emptyMenu}}
+                <div class="not-available-menu">{{i18n 'userPage.unavailableMenu'}}</div>
+            {{/if}}
+
+            {{#if emptyOrder}}
+                {{#if active}}
+                <div class="not-chosen-menu">
+                    <img src="{{imageUrl}}" class="not-chosen-menu-image"/>
+                    <p>{{i18n 'userPage.unchosenMenu'}}</p>
+                </div>
+                    {{/if}}
+            {{/if}}
+        </div>
+        <div class="free-space"></div>
+        {{#if active}}
+            <div class="card-footer">
+                {{#if sumPrice}}
+                <div class="card-total-price">
+                    <div class="order-price">{{i18n 'other.amount'}}</div>
+                    <div class="card-price-num">{{totalPrice}} BYN</div>
+                </div>
+                {{/if}}
+                {{#if showButton }}
+                    <button class="edit-button">{{button}}</button>
+                {{/if}}
+            </div>
+        {{/if}}
+    </div>
+</div>
